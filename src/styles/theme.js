@@ -1,10 +1,12 @@
 const themeDark = {
   theme: 'dark',
+  primary: '#1fb6ff',
+  bodyBackground: '#0c1014',
+  textColor: '#000000'
 }
 
 const themeLight = {
   theme: 'light',
-  primary: '#1fb6ff',
 }
 
 const customColors = {

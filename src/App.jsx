@@ -1,11 +1,14 @@
 import { ThemeProvider } from "styled-components";
+import Home from "./pages/home/Home";
 import { GlobalStyles } from "./styles/globalStyles";
-import { themeLight } from "./styles/theme";
+import { themeDark } from "./styles/theme";
 
 const App = () => {
   return (
-    <ThemeProvider theme={themeLight}>
+    <ThemeProvider theme={themeDark}>
       <GlobalStyles />
+      {/* Pages */}
+      <Home />
     </ThemeProvider>
   );
 };
